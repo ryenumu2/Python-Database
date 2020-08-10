@@ -14,7 +14,7 @@ class DBDB(object):
         #if returns False, _SSDstorage is already locked 
     
     def _assert_not_closed(self):
-        if self._storage.closed: #f.close() will close an open file, while .closed returns a boolean for whether the file is closed or not
+        if self._SSDstorage.closed: #f.close() will close an open file, while .closed returns a boolean for whether the file is closed or not
             raise ValueError('Error: Database closed.')
     
     
