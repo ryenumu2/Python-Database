@@ -1,3 +1,5 @@
+from storage import PersistentStorage
+from binary_tree import BinaryTree
 class DBDB(object):
 
     def __init__(self,f):

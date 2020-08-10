@@ -1,4 +1,4 @@
-class Storage(object):
+class PersistentStorage(object):
 
     def lock(self,key):
         if not self.locked: #boolean for whether database is locked or not. Run code below if false (not locked).
